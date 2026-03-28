@@ -18,10 +18,8 @@ class Persona:
         self.edad +=1
       
     def verificar_rut(self):
-        if self.rut == 0:   
-
-
-
+      if self.rut == 0: 
+        pass
 
 
 
@@ -30,7 +28,7 @@ class Persona:
 juanito = Persona("juanito", 34, 1234567893)
 carlos = Persona("carlos", 32, 124637752)
 
-print(carlos.saludar())
-print(carlos.verificar_rut())
-print(carlos.edad())
-print(carlos.saludar())
+print(juanito.cumplir_anios())
+print(juanito.rut())
+print(juanito.saludar())
+
